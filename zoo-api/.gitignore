@@ -1,0 +1,45 @@
+# Build / bin / obj
+bin/
+obj/
+out/
+build/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.vscode-test/
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.dbmdl
+*.bak
+*.log
+*.pdb
+*.cache
+*.config
+*.vspscc
+*.vssscc
+*.njsproj
+*.psess
+
+# ASP.NET sensitive data
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Entity Framework
+Migrations/
+
+# npm / yarn / node_modules (caso misture com frontend local)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS junk files
+.DS_Store_

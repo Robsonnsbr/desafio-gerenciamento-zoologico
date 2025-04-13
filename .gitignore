@@ -1,0 +1,76 @@
+# =============================
+# FRONTEND – zoo-app (Next.js)
+# =============================
+
+/zoo-app/node_modules/
+/zoo-app/.pnp
+/zoo-app/.pnp.*
+/zoo-app/.yarn/*
+!/zoo-app/.yarn/patches
+!/zoo-app/.yarn/plugins
+!/zoo-app/.yarn/releases
+!/zoo-app/.yarn/versions
+
+/zoo-app/.next/
+/zoo-app/out/
+/zoo-app/build/
+/zoo-app/coverage/
+/zoo-app/.vercel
+
+/zoo-app/.env
+/zoo-app/.env.production
+
+/zoo-app/*.tsbuildinfo
+/zoo-app/next-env.d.ts
+
+/zoo-app/npm-debug.log*
+/zoo-app/yarn-debug.log*
+/zoo-app/yarn-error.log*
+/zoo-app/.pnpm-debug.log*
+
+# =============================
+# BACKEND – zoo-api (ASP.NET)
+/zoo-api/bin/
+/zoo-api/obj/
+/zoo-api/out/
+/zoo-api/build/
+/zoo-api/artifacts/
+/zoo-api/Migrations/
+
+/zoo-api/*.user
+/zoo-api/*.suo
+/zoo-api/*.userosscache
+/zoo-api/*.sln.docstates
+
+/zoo-api/.vscode/
+/zoo-api/.vscode-test/
+/zoo-api/.vs/
+
+# Dotnet-specific
+/zoo-api/project.lock.json
+/zoo-api/project.fragment.lock.json
+/zoo-api/*.dbmdl
+/zoo-api/*.bak
+/zoo-api/*.log
+/zoo-api/*.pdb
+/zoo-api/*.cache
+/zoo-api/*.config
+/zoo-api/*.vspscc
+/zoo-api/*.vssscc
+/zoo-api/*.njsproj
+/zoo-api/*.psess
+
+# ASP.NET sensitive data
+/zoo-api/appsettings.Development.json
+/zoo-api/appsettings.Local.json
+/zoo-api/secrets.json
+
+/zoo-api/node_modules/
+/zoo-api/npm-debug.log
+/zoo-api/yarn-debug.log
+/zoo-api/yarn-error.log
+
+# =============================
+# COMUM (Raiz e geral)
+/.DS_Store
+*.pem
