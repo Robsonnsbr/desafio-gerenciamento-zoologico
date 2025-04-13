@@ -91,6 +91,7 @@ dotnet publish -c Release -r win-x64 --self-contained true
 ```
 
 ### 🗃️ Banco de Dados
+- (Se necessário altere conforme suas configurações  port;dataBase;username;root)
 - PostgreSQL
 - Configuração no `appsettings.json`:
 ```json
