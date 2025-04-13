@@ -107,3 +107,96 @@ Clone com:
 ```bash
 git clone https://github.com/Robsonnsbr/desafio-gerenciamento-zoologico.git
 ```
+
+
+
+# 𖣂 Estrutura do projeto (Tree):
+
+zoo-api
+├── .gitignore
+├── Controllers
+│   ├── AnimalController.cs
+│   ├── CuidadoController.cs
+│   └── SeedController.cs
+├── DTOs
+│   ├── AnimalDTO.cs
+│   └── CareDTO.cs
+├── Data
+│   ├── DbSeeder.cs
+│   └── ZooContext.cs
+├── Models
+│   ├── Animal.cs
+│   ├── AnimalCuidado.cs
+│   └── Cuidado.cs
+├── Program.cs
+├── Properties
+│   └── launchSettings.json
+├── README.md
+├── ZooApi.csproj
+├── ZooApi.http
+├── ZooApi.sln
+└── appsettings.json
+
+zoo-app
+├── .env.example
+├── .env.local
+├── .gitignore
+├── README.md
+├── eslint.config.mjs
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── favicon.png
+│   └── sitemap.xml
+├── src
+│   ├── app
+│   │   ├── animals
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   ├── create
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── api
+│   │   │   ├── animals
+│   │   │   │   ├── [id]
+│   │   │   │   │   └── route.ts
+│   │   │   │   └── route.ts
+│   │   │   ├── auth
+│   │   │   │   └── [...nextauth]
+│   │   │   │       └── route.ts
+│   │   │   └── cares
+│   │   │       ├── [id]
+│   │   │       │   └── route.ts
+│   │   │       └── route.ts
+│   │   ├── cares
+│   │   │   ├── [id]
+│   │   │   │   └── page.tsx
+│   │   │   ├── create
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   ├── error.tsx
+│   │   ├── layout.tsx
+│   │   ├── not-found.tsx
+│   │   ├── page.tsx
+│   │   ├── privacy-policy
+│   │   │   └── page.tsx
+│   │   ├── providers
+│   │   │   └── index.tsx
+│   │   ├── robots.txt
+│   │   │   └── route.ts
+│   │   └── styles
+│   │       └── globals.css
+│   ├── components
+│   │   ├── AnimalCard.tsx
+│   │   ├── CareCard.tsx
+│   │   ├── LoginButton.tsx
+│   │   ├── LogoutButton.tsx
+│   │   └── NavBar.tsx
+│   ├── font
+│   │   └── index.ts
+│   └── types
+│       └── index.ts
+├── tailwind.config.ts
+└── tsconfig.json
