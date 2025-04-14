@@ -1,4 +1,19 @@
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/453d5862-6425-4bb8-938c-465078f38b7d" width="200"/>
+  <img src="https://github.com/user-attachments/assets/eafe5de8-1d7f-485f-9141-ed97a5794f56" width="200"/>
+  <img src="https://github.com/user-attachments/assets/4bfd8163-6df4-4ce7-89ea-3896c5d7c2b7" width="200"/>
+    <img src="https://github.com/user-attachments/assets/940abada-917a-4d79-bef6-c16482079ccc" width="200"/>
+</p>
 
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/03a48ec9-1e3d-4f57-9ba1-4977b7af0c40" width="200"/>
+  <img src="https://github.com/user-attachments/assets/a43ec644-aa5d-4c7c-b5fb-03a03294b7fa" width="200"/>
+  <img src="https://github.com/user-attachments/assets/350c6eee-b42c-4c67-b18c-b218e6594ef7" width="200"/>
+  <img src="https://github.com/user-attachments/assets/e18a4daa-58dc-4d43-8abc-11a455737b9a" width="200"/>
+</p>
+
+
+</p>
 # ✅ Visão Geral do Projeto: Gerenciamento Zoológico CIEE/PR
 
 ---
