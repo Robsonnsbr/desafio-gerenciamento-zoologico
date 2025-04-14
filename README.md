@@ -13,8 +13,31 @@
   <img src="https://github.com/user-attachments/assets/e18a4daa-58dc-4d43-8abc-11a455737b9a" width="200"/>
 </p>
 
+## ✅ Funcionalidades Implementadas
 
-</p>
+- Aplicação web desenvolvida com **React**.
+- Telas para **listar, cadastrar, editar e remover** animais e cuidados.
+- Cadastro de animais com os campos:
+  - Nome
+  - Descrição
+  - Data de nascimento
+  - Espécie
+  - Habitat
+  - País de origem
+- Cadastro de cuidados com os campos:
+  - Nome do cuidado (ex: Alimentação, Vacinação)
+  - Descrição
+  - Frequência (diária, semanal, mensal etc.)
+- Relacionamento **muitos-para-muitos** entre animais e cuidados.
+- Consumo de uma **API REST** desenvolvida em **.NET Core** com os métodos:
+  - `GET`, `POST`, `PUT`, `DELETE`
+- Validações nos formulários e na API para evitar dados inconsistentes.
+
+## ✨ Funcionalidades Adicionais (Além dos Requisitos Básicos)
+
+- Sistema de **autenticação** com login e logout.
+- Utilização de **banco de dados SQL Server** com relacionamento entre tabelas.
+
 # ✅ Visão Geral do Projeto: Gerenciamento Zoológico CIEE/PR
 
 ---
